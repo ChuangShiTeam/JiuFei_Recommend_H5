@@ -1,0 +1,139 @@
+body, html {
+    font-family: PingFang SC,Helvetica Neue,Hiragino Sans GB,Helvetica,Microsoft YaHei,Arial;
+    background-color: #f0f0f0;
+}
+#root {
+    height: 0px;
+    background-color: #f0f0f0;
+}
+
+.home {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+    font-size: 14px;
+    width: 750px;
+    height: 1717px;
+    -webkit-transform-origin:top left;
+    overflow: hidden;
+    background: url('../image/00.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.apply {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+    font-size: 14px;
+    width: 750px;
+    -webkit-transform-origin:top left;
+}
+
+.customer_name {
+    position: absolute;
+    top: 498px;
+    left: 149px;
+    width: 522px;
+    height: 104px;
+    border: 0px;
+    background-color: transparent;
+    font-size: 24px;
+}
+
+.customer_phone {
+    position: absolute;
+    top: 639px;
+    left: 149px;
+    width: 522px;
+    height: 104px;
+    border: 0px;
+    background-color: transparent;
+    font-size: 24px;
+}
+
+.customer_city {
+    position: absolute;
+    top: 777px;
+    left: 149px;
+    width: 522px;
+    height: 104px;
+    border: 0px;
+    background-color: transparent;
+    font-size: 24px;
+}
+
+.submit_button {
+    position: absolute;
+    top: 939px;
+    left: 71px;
+    width: 613px;
+    height: 94px;
+    border: 0px;
+    background-color: transparent;
+    font-size: 24px;
+}
+
+.product {
+    position: relative;
+    width: 682px;
+    margin-left: 34px;
+    margin-top: 30px;
+}
+
+.product_item {
+    width: 682px;
+    height: 142px;
+    margin-bottom: 11px;
+    background: url('../image/03.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.product_image {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 100px;
+    width: 142px;
+    height: 142px;
+    background-size: cover !important;
+}
+
+.product_name {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 331px;
+    color: #eb5202;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.product_content {
+    position: absolute;
+    margin-top: 57px;
+    margin-left: 331px;
+    width: 320px;
+    font-size: 24px;
+    color: #9e9e9e;
+}
+
+.code-info{
+    background:none;
+}
+
+.close{
+    position: absolute;
+    width: 10%;
+    top:50%;
+    left:50%;
+    margin-top: 31%;
+    margin-left: 31%;
+}
+
+.code-img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: 41%;
+    margin-left: -40%;
+}
