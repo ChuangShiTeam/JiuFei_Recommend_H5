@@ -19,8 +19,8 @@ class Home extends Component {
     }
 
     componentDidMount() {
-        Popup.show(<div className="code-info"><img className="code-img" style={{width: '80%'}} src={require('../image/04.jpg')} alt='微店二维码' /></div>, {maskClosable:true, className: 'back'});
-    }
+       /* Popup.show(<div className="code-info"><img className="code-img" style={{width: '80%'}} src={require('../image/04.jpg')} alt='微店二维码' /></div>, {maskClosable:true, className: 'back'});
+*/    }
 
     componentWillUnmount() {
 
